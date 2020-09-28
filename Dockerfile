@@ -1,6 +1,6 @@
 FROM php:7.2-apache
 
-COPY /code/index.php /var/www/html/index.php
+COPY /code/app.php /var/www/html/app.php
 
 EXPOSE 80
 
